@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2e7d32; /* Green poker table background */
+    color: white;
+    text-align: center;
+  }
+  
+.start {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #444;
+    padding: 20px;
+    border-radius: 12px;
+}
+  
+.start>input{
+    border-radius: 5px;
+    font-size: 16px;
+    height: 20px;
+}
+.hidden {
+    display: none;
+}
+  
+#game-container {
+    padding: 65px;
+}
+  
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+ 
+.card-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player-score h2 {
+    font-size: 1.5em;
+}
+  
+.card-area {
+    width: 20%;
+    margin: 15px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.card {
+    width: 110px;
+    height: 170px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #ffa726;
+}
+
+p{
+    font-size: 18px;
+}
+
+#result-message{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
